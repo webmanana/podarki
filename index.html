@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js" lang="ru" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StartAce</title>
+	<link rel="stylesheet" href="vendor/foundation/css/foundation.css">
+	<link rel="stylesheet" href="vendor/foundation/css/app.css">
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header_wrap">
+
+			</div>
+		</header>
+		<div class="main_inner">
+			<section class="section">
+				<div class="slider_inner">
+					<a href="#" id="arrow_left_1" class="slider_arrow arrow_left"><img src="img/slide_arrow_left.svg" alt=""></a>
+					<div class="slider_content">
+						<div class="slide">
+							<div class="slider_img" style="background-image:url(img/slider_1.jpg)">
+								<div class="slide_container">
+									<div class="slide_text">
+										<h2>StartAce</h2>
+										<p>Ваш ежемесячный доход 10% от вклада</p>
+										<a href="#">Начать зарабатывать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slider_img" style="background-image:url(img/slider_1.jpg)">
+								<div class="slide_container">
+									<div class="slide_text">
+										<h2>StartAce</h2>
+										<p>Ваш ежемесячный доход 10% от вклада</p>
+										<a href="#">Начать зарабатывать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slider_img" style="background-image:url(img/slider_1.jpg)">
+								<div class="slide_container">
+									<div class="slide_text">
+										<h2>StartAce</h2>
+										<p>Ваш ежемесячный доход 10% от вклада</p>
+										<a href="#">Начать зарабатывать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" id="arrow_right_1" class="slider_arrow arrow_right"><img src="img/slide_arrow_right.svg" alt=""></a>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer_inner">
+						<div class="footer_block">
+							<ul>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Калькулятор дохода</a></li>
+								<li><a href="#">Отзывы клиентов</a></li>
+								<li><a href="#">Медиа</a></li>
+								<li><a href="#">Продукт</a></li>
+								<li><a href="#">Преимущества и гарантии</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer_contact">
+							<b>+7(924)462-90-10</b>
+							Startace62@gmail.com
+						</div>
+					</div>
+					<div class="footer_bottom">
+						<span>© ООО "Старт Эйс", 2019</span>
+						<ul>
+							<li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/whatsapp.svg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div class="off-canvas-wrapper">
+	    <div class="off-canvas position-left mobile_canvas" id="offCanvasLeft" data-off-canvas>
+			<ul class="mobile-ofc vertical menu">
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Продукт</a></li>
+				<li><a href="#">Преимущества и гарантии</a></li>
+				<li><a href="#">Калькулятор дохода</a></li>
+				<li><a href="#">Отзывы клиентов</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li class="canvas_social">
+					<ul>
+						<li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+						<li><a href="#"><img src="img/whatsapp.svg" alt=""></a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+    </div>
+		<script src="vendor/foundation/js/vendor/jquery.js"></script>
+		<script src="vendor/foundation/js/vendor/what-input.js"></script>
+		<script src="vendor/foundation/js/vendor/foundation.js"></script>
+		<script src="vendor/foundation/js/app.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+		<script src="main.js"></script>
+		<script type="text/javascript">
+		$('.slider_content').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			centerMode: false,
+			focusOnSelect: true,
+			arrows: true,
+			dots: true,
+			prevArrow: $('#arrow_left_1'),
+			nextArrow: $('#arrow_right_1'),
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						arrows: false,
+					}
+				},
+				{
+					breakpoint: 532,
+					settings: {
+					slidesToShow: 1,
+					}
+				}
+			]
+	  });
+		</script>
+	</div>
+</body>
+
+</html>
