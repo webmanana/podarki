@@ -14,6 +14,7 @@
 
 <body>
 	<div class="wrapper">
+		<div class="top_background"></div>
 		<header>
 			<div class="header_wrap">
 				<div class="container">
@@ -23,28 +24,28 @@
 						</div>
 						<div class="header_search">
 							<form action="" class="header_search_form">
-								<input id="title-search-input" type="text" name="q" class="header_search_form__text" value="" placeholder="Поиск..." autocomplete="off">
+								<input id="title-search-input" type="text" name="q" class="header_search_form__text animate" value="" placeholder="Поиск..." autocomplete="off">
 								<input name="s" type="submit" class="header_search_form__submit" value="">
 							</form>
 							<div class="header_search_title">
 								<ul>
-									<li><a href="" class="green">Игрушки</a></li>
-									<li><a href="" class="purple">Женские часы</a></li>
-									<li><a href="" class="orange">AirPods</a></li>
-									<li><a href="" class="red">Парфюмерия</a></li>
-									<li><a href="" class="yellow">Аксессуары</a></li>
+									<li><a href="" class="green animate">Игрушки</a></li>
+									<li><a href="" class="purple animate">Женские часы</a></li>
+									<li><a href="" class="orange animate">AirPods</a></li>
+									<li><a href="" class="red animate">Парфюмерия</a></li>
+									<li><a href="" class="yellow animate">Аксессуары</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="header_account">
 							<div class="header_account_login header_account_icon">
-								<a href="#"><img src="img/login.svg" alt=""></a>
+								<a href="#" class="svg_ico"><img src="img/login.svg" alt=""></a>
 							</div>
 							<div class="header_account_wishlist header_account_icon">
-								<a href="#"><img src="img/wishlist.svg" alt=""></a>
+								<a href="#" class="svg_ico"><img src="img/wishlist.svg" alt=""></a>
 							</div>
 							<div class="header_account_cart header_account_icon">
-								<a href="#"><img src="img/cart.svg" alt=""></a>
+								<a href="#" class="svg_ico"><img src="img/cart.svg" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -56,25 +57,25 @@
 				<div class="main_inner">
 					<div class="main_inner_left">
 						<div class="main_category">
-							<a href="#" class="main_category_burger">
+							<a href="#" class="main_category_burger animate">
 								<img src="img/burger.svg" alt="">
 								<span>Категории</span>
 							</a>
 							<ul>
-								<li><a href="#">Электроника</a></li>
-								<li><a href="#">Компьютерная техника</a></li>
-								<li><a href="#">Бытовая техника</a></li>
-								<li><a href="#">Товары для ремонта</a></li>
-								<li><a href="#">Товары для дома</a></li>
-								<li><a href="#">Дача, сезонные товары</a></li>
-								<li><a href="#">Детские товары</a></li>
-								<li><a href="#">Красота и гигиена</a></li>
-								<li><a href="#">Здоровье</a></li>
-								<li><a href="#">Товары для животных</a></li>
-								<li><a href="#">Спорт и отдых</a></li>
-								<li><a href="#">Сумки и аксессуары</a></li>
-								<li><a href="#">Часы, украшения, аксессуары</a></li>
-								<li><a href="#">Автотовары</a></li>
+								<li><a href="#" class="animate">Электроника</a></li>
+								<li><a href="#" class="animate">Компьютерная техника</a></li>
+								<li><a href="#" class="animate">Бытовая техника</a></li>
+								<li><a href="#" class="animate">Товары для ремонта</a></li>
+								<li><a href="#" class="animate">Товары для дома</a></li>
+								<li><a href="#" class="animate">Дача, сезонные товары</a></li>
+								<li><a href="#" class="animate">Детские товары</a></li>
+								<li><a href="#" class="animate">Красота и гигиена</a></li>
+								<li><a href="#" class="animate">Здоровье</a></li>
+								<li><a href="#" class="animate">Товары для животных</a></li>
+								<li><a href="#" class="animate">Спорт и отдых</a></li>
+								<li><a href="#" class="animate">Сумки и аксессуары</a></li>
+								<li><a href="#" class="animate">Часы, украшения, аксессуары</a></li>
+								<li><a href="#" class="animate">Автотовары</a></li>
 							</ul>
 						</div>
 					</div>
@@ -82,21 +83,31 @@
 						<div class="main_banner">
 							<h1 class="title">Подарки каждому</h1>
 							<div class="main_banner_inner">
-								<a href="#" class="main_banner_item" style="background-image:url(img/banner1.png)">
-									<span>Изделия ручной работы</span>
-								</a>
-								<a href="#" class="main_banner_item" style="background-image:url(img/banner2.png)">
-									<span>Детям</span>
-								</a>
-								<a href="#" class="main_banner_item" style="background-image:url(img/banner3.png)">
-									<span>Для женщин</span>
-								</a>
-								<a href="#" class="main_banner_item" style="background-image:url(img/banner4.png)">
-									<span>День рождения</span>
-								</a>
-								<a href="#" class="main_banner_item" style="background-image:url(img/banner5.png)">
-									<span>Для мужчин</span>
-								</a>
+								<div class="main_banner__block">
+									<a href="#" class="main_banner__item" style="background-image:url(img/banner1.png)">
+										<span>Изделия ручной работы</span>
+									</a>
+								</div>
+								<div class="main_banner__block">
+									<a href="#" class="main_banner__item" style="background-image:url(img/banner2.png)">
+										<span>Детям</span>
+									</a>
+								</div>
+								<div class="main_banner__block">
+									<a href="#" class="main_banner__item" style="background-image:url(img/banner4.png)">
+										<span class="black_text">Для женщин</span>
+									</a>
+								</div>
+								<div class="main_banner__block">
+									<a href="#" class="main_banner__item" style="background-image:url(img/banner3.png)">
+										<span class="white_text">День рождения</span>
+									</a>
+								</div>
+								<div class="main_banner__block">
+									<a href="#" class="main_banner__item" style="background-image:url(img/banner5.png)">
+										<span class="white_text">Для мужчин</span>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -104,32 +115,169 @@
 			</div>
 		</section>
 		<section class="section">
-			<div class="waveWrapper waveAnimation">
-			  <div class="waveWrapperInner bgBottom">
-			    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave.svg')"></div>
-			  </div>
-			</div>
 			<div class="top_container">
-			  <div class="wave">
+			  <div class="wave top_wave" style="background-image:url(img/wave.png)">
 
 			  </div>
-				<div class="top_wrap">
+				<div class="tovar_wrap">
 					<div class="container">
-						<h1 class="title">Стоит приглядеться</h1>
+						<h1 class="title blue_text">Стоит приглядеться</h1>
 					</div>
-					<div class="top_inner">
-						<div class="top_item__block">
-							<div class="top_item__content">
-								<div class="top_item__img" style="background-image:url(img/tovar1.png)">
+					<div class="tovar_inner">
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
 
-								</div>
-								<div class="top_item__desc">
-									<span>Чайная кружка</span>
-									<div class="top_item__meta">
-										<div class="top_item__meta_price">
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
 											<span>550</span> руб.
 										</div>
-										<div class="top_item__meta_wishlist">
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
+											<a href="#"><img src="img/like.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tovar_item__block">
+							<div class="tovar_item__content">
+								<a href="#" class="tovar_item__img">
+									<div class="tovar_item__img_content" style="background-image:url(img/tovar1.png)">
+
+									</div>
+								</a>
+								<div class="tovar_item__desc">
+									<a href="#" class="tovar_title animate">Чайная кружка</a>
+									<div class="tovar_item__meta">
+										<div class="tovar_item__meta_price">
+											<span>550</span> руб.
+										</div>
+										<div class="tovar_item__meta_wishlist">
 											<a href="#"><img src="img/like.svg" alt=""></a>
 										</div>
 									</div>
@@ -137,10 +285,55 @@
 							</div>
 						</div>
 					</div>
+					<div class="tovar_arrow">
+						<a href="#" class="tovar_arrow__item"><img src="img/arrow_left.svg" alt=""></a>
+						<a href="#" class="tovar_arrow__item"><img src="img/arrow_right.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="wave bottom_wave" style="background-image:url(img/wave_bottom.png)">
+
+			  </div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="popular_wrap">
+				<div class="container">
+					<h1 class="title blue_text">Стоит приглядеться</h1>
+					<div class="popular_inner">
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner1.png)">
+								<span>Товары для дома</span>
+							</a>
+						</div>
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner2.png)">
+								<span>Спорт и отдых</span>
+							</a>
+						</div>
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner3.png)">
+								<span>Книги</span>
+							</a>
+						</div>
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner4.png)">
+								<span>Автотовары</span>
+							</a>
+						</div>
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner5.png)">
+								<span>Детские игрушки</span>
+							</a>
+						</div>
+						<div class="popular__block">
+							<a href="#" class="poular__item" style="background-image:url(img/popular_banner6.png)">
+								<span>Электроника</span>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
-
 		<footer class="footer">
 			<div class="container">
 				<div class="footer_inner">
@@ -197,14 +390,14 @@
 		<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
 		<script src="main.js"></script>
 		<script type="text/javascript">
-		$('.slider_content').slick({
-			slidesToShow: 1,
+		$('.tovar_inner').slick({
+			slidesToShow: 6,
 			slidesToScroll: 1,
 			infinite: true,
-			centerMode: false,
+			centerMode: true,
 			focusOnSelect: true,
 			arrows: true,
-			dots: true,
+			dots: false,
 			prevArrow: $('#arrow_left_1'),
 			nextArrow: $('#arrow_right_1'),
 			responsive: [
