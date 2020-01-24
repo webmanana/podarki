@@ -18,6 +18,11 @@
 			<div class="header_wrap">
 				<div class="container">
 					<div class="header_inner">
+						<div class="header_burger" data-toggle="offCanvasLeft">
+							<a href="#">
+								<img src="img/burger.png" alt="">
+							</a>
+						</div>
 						<div class="header_logo">
 							<a href="#"><img src="img/logo.png" alt=""></a>
 						</div>
@@ -674,24 +679,26 @@
 		</footer>
 		<div class="off-canvas-wrapper">
 	    <div class="off-canvas position-left mobile_canvas" id="offCanvasLeft" data-off-canvas>
-			<ul class="mobile-ofc vertical menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Продукт</a></li>
-				<li><a href="#">Преимущества и гарантии</a></li>
-				<li><a href="#">Калькулятор дохода</a></li>
-				<li><a href="#">Отзывы клиентов</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li class="canvas_social">
-					<ul>
-						<li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
-						<li><a href="#"><img src="img/whatsapp.svg" alt=""></a></li>
-					</ul>
-				</li>
-			</ul>
+				<div class="canvas_login">
+					<div class="canvas_login__img">
+						<a href="#">
+							<img src="img/login.png" alt="">
+						</a>
+					</div>
+					<div class="canvas_login__url">
+						<a href="#" class="hover_back_pink pink animate">Войти</a>
+					</div>
+				</div>
+				<ul class="canvas_menu">
+					<li><a href="#">Каталог товара</a></li>
+					<li><a href="#">Мои заказы</a></li>
+					<li><a href="#">Мои избранные</a></li>
+					<li><a href="#">Помощь</a></li>
+					<li><a href="#">Город: Якутск</a></li>
+				</ul>
 	    </div>
     </div>
-		
+
 		<script src="vendor/foundation/js/vendor/jquery.js"></script>
 		<script src="vendor/foundation/js/vendor/what-input.js"></script>
 		<script src="vendor/foundation/js/vendor/foundation.js"></script>
@@ -703,7 +710,7 @@
 				slidesToShow: 6,
 				slidesToScroll: 1,
 				infinite: true,
-				centerMode: false,
+				centerMode: true,
 				focusOnSelect: true,
 				arrows: true,
 				dots: false,

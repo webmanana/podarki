@@ -126,8 +126,6 @@ a:hover {
 }
 .header_logo {
 	width: 180px;
-}
-.header_logo {
 	display: flex;
 }
 .header_account {
@@ -656,18 +654,143 @@ a:hover {
 	padding-bottom: 16px;
 	display: flex;
 }
+.header_burger {
+	display: none;
+}
 @media (max-width: 1200px) {
 	.container {
 		max-width: 980px;
 	}
+	.header_search_title ul li:last-child {
+		display: none;
+	}
+	.about_img {
+    width: 55%;
+	}
+	.about_desc {
+    width: 45%;
+	}
+	.tovar_item__block {
+    padding-left: 8px;
+    padding-right: 8px;
+	}
 }
 @media (max-width: 1024px) {
-	.container {
+	.container, .newsletter_container {
 		max-width: 768px;
+	}
+	.main_banner__block {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 16px;
+	}
+	.popular__block {
+		padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 16px;
+	}
+	.main_banner_inner {
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+	.popular_inner {
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+	.header_search {
+    padding-left: 0;
+    padding-right: 10px;
+	}
+	.advan_item {
+		flex-direction: column;
+	}
+	.about_img_content {
+		background-size: cover;
+		width: 349px;
+    height: 415px;
+    top: -30px;
+    left: -20px;
+	}
+	.about_img {
+    width: 50%;
+	}
+	.about_desc {
+    width: 50%;
+	}
+	.about_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+	}
+	.advan_item__img {
+		padding-bottom: 10px;
+	}
+	.poular__item {
+		height: 200px;
+	}
+	.main_inner_right {
+		width: 100%;
+	}
+	.main_inner_left {
+		display: none;
+	}
+	.advan_block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.advan_inner {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.advan_wrap {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.header_burger {
+		display: flex;
+	}
+	.header_logo {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 150px;
+	}
+	.mobile_canvas {
+		background: #fff;
+		padding: 35px 15px;
+	}
+	.canvas_login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 30px;
+	}
+	.canvas_login__img {
+		padding-bottom: 20px;
+	}
+	.canvas_login__url a {
+		color: #fff;
+		background: #F55471;
+		border-radius: 5px;
+		padding: 10px 35px;
+	}
+	.canvas_menu {
+		display: flex;
+		flex-direction: column;
+	}
+	.canvas_menu li {
+		border-bottom: 1px solid #eee;
+		display: flex;
+	}
+	.canvas_menu li a {
+		display: flex;
+		color: #F55471;
+		font-size: 12px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 }
 @media (max-width: 800px) {
-	.container {
+	.container, .newsletter_container {
 		max-width: 568px;
 	}
 }
