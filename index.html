@@ -743,11 +743,18 @@
 						}
 					},
 					{
-						breakpoint: 568,
+						breakpoint: 600,
 						settings: {
-							slidesToShow: 1,
+							slidesToShow: 3,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 2,
 						}
 					}
+
 				]
 		  });
 
@@ -788,13 +795,46 @@
 						}
 					},
 					{
-						breakpoint: 568,
+						breakpoint: 600,
 						settings: {
-							slidesToShow: 1,
+							slidesToShow: 3,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 2,
 						}
 					}
 				]
 		  });
+			$(window).on('load resize', function() {
+				if ($(window).width() < 600) {
+					$('.main_banner_inner').slick({
+						slidesToShow: 5,
+						slidesToScroll: 1,
+						infinite: false,
+						centerMode: false,
+						focusOnSelect: true,
+						arrows: false,
+						dots: false,
+						responsive: [
+							{
+								breakpoint: 600,
+								settings: {
+									slidesToShow: 1,
+								}
+							},
+							{
+								breakpoint: 568,
+								settings: {
+									slidesToShow: 1,
+								}
+							}
+						]
+				  });
+				}
+			});
 		</script>
 	</div>
 </body>
