@@ -902,6 +902,16 @@ a:hover {
 		padding-top: 15px;
     height: 270px;
 	}
+	.popular__block {
+		width: 50%;
+	}
+	.main_inner {
+		margin-left: -16px;
+		margin-right: -16px;
+	}
+	.main_banner__item {
+		border-radius: 0;
+	}
 	.wave, .advan_section {
 		display: none;
 	}
